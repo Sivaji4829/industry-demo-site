@@ -13,7 +13,7 @@ const Section = ({ id, className, children }) => (
     {/* Background video */}
     <video
       className="absolute top-0 left-0 w-full h-full object-cover z-0"
-      src="public/videos/services.mp4" // 🔹 place your generated video here
+      src="/videos/services.mp4" // 🔹 place your generated video here
       autoPlay
       loop
       muted

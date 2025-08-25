@@ -114,7 +114,7 @@ const About = () => {
 
             {/* Main Image and Overlay */}
             <img
-              src="public/logos/about.png"
+              src="/logos/about.png"
               className="relative z-10 w-full h-full object-cover"
               alt="Industrial fabrication"
               onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/600x450/e2e8f0/4b5563?text=Zenith+Steel'; }}
