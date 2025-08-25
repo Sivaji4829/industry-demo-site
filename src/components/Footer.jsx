@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover opacity-20"
-        src="public/videos/footer.mp4"
+        src="/videos/footer.mp4"
         autoPlay
         loop
         muted
